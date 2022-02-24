@@ -1,0 +1,513 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  color: #333333;
+}
+
+.header {
+  border-bottom: 0.1rem solid lightgray;
+  line-height: 2rem;
+}
+
+.header .navbar-brand {
+  color: #333333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header .navbar-brand img {
+  width: 3rem;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+  color: #51A387;
+}
+
+.header .my-btn {
+  color: #fff;
+  background: #4B75BE;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1.2rem;
+}
+
+.header .my-btn:hover {
+  color: #333333;
+  background: #51A387;
+}
+
+.main-header {
+  padding: 2rem 0 7rem 0;
+  background: url("../images/Vector 1.png");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-header-text {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-header-text p {
+  color: #333333;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.main-header-text p span {
+  font-size: 3rem;
+}
+
+.main-header-text .main-header-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-header-text .main-header-icons figure img {
+  width: 4rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+
+.main-header-text .main-header-btn p {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.main-header-text .main-header-btn #btn-2 {
+  text-decoration: none;
+  color: #fff;
+  background: #4B75BE;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1.2rem;
+}
+
+.main-header-text .main-header-btn #btn-2:hover {
+  color: #333333;
+  background: #51A387;
+}
+
+.main-header-img {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.icon-section {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.icon-section .row figure img {
+  width: 4rem;
+}
+
+.learn_something {
+  text-align: center;
+}
+
+.learn_something_text {
+  text-align: center;
+  padding: 0.8rem 0;
+}
+
+.learn_something_text h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.learn_something_text p {
+  font-weight: 0%;
+}
+
+.learn_something .row .figure-1 {
+  background: url("../images/Ellipse 14.png");
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 1rem 0;
+  padding: 2rem 0.7rem;
+}
+
+.learn_something .row .figure-1 p {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.learn_something .row .figure-1 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.learn_something .row .figure-1 a {
+  text-decoration: none;
+  color: #333333;
+  margin: 0 0 4rem 0;
+}
+
+.learn_something .row .figure-1 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.learn_something .row .figure-2 {
+  background: url("../images/Ellipse 6.png");
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 1rem 0;
+  padding: 2rem 0.7rem;
+}
+
+.learn_something .row .figure-2 p {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.learn_something .row .figure-2 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.learn_something .row .figure-2 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.learn_something .row .figure-2 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.learn_something .row .figure-3 {
+  background: url("../images/Ellipse 7.png");
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 1rem 0;
+  padding: 2rem 0.7rem;
+}
+
+.learn_something .row .figure-3 p {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.learn_something .row .figure-3 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.learn_something .row .figure-3 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.learn_something .row .figure-3 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.learn_something .row .figure-4 {
+  background: url("../images/Ellipse 8.png");
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 1rem 0;
+  padding: 2rem 0.7rem;
+}
+
+.learn_something .row .figure-4 p {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.learn_something .row .figure-4 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.learn_something .row .figure-4 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.learn_something .row .figure-4 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.trusted-icon-section {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.trusted-icon-section .apps-text {
+  font-size: 1rem;
+}
+
+.trusted-icon-section h5 {
+  font-size: 2rem;
+}
+
+.trusted-icon-section figure img {
+  width: 10rem;
+  height: 4rem;
+}
+
+.trusted-icon-section #btn-3 {
+  background: #fff;
+  border-radius: 3rem;
+  border: 1px solid #51A387;
+  text-decoration: none;
+  outline: none;
+  padding: 0.4rem 1.2rem;
+  color: #51A387;
+}
+
+.contacts {
+  margin: 3rem 0;
+}
+
+.contacts .contact-1 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-1 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-1 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-1 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-1 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.contacts .contact-2 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-2 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-2 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-2 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-2 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.contacts .contact-3 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-3 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-3 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-3 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-3 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.contacts .contact-4 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-4 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-4 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-4 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-4 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.contacts .contact-5 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-5 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-5 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-5 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-5 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.contacts .contact-6 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-6 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-6 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-6 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-6 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.contacts .contact-7 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-7 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-7 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-7 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-7 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.contacts .contact-8 {
+  padding-bottom: 2rem;
+}
+
+.contacts .contact-8 p {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.contacts .contact-8 img {
+  width: 3rem;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.contacts .contact-8 a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0 0 1rem 0;
+}
+
+.contacts .contact-8 a img {
+  width: 0.8rem;
+  padding: 0;
+}
+
+.footer {
+  background: #bbdad3;
+}
+/*# sourceMappingURL=main.css.map */

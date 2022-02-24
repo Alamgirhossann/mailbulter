@@ -1,0 +1,47 @@
+@mixin myBtn($bg_value) {
+  background: $bg_value;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1.2rem;
+}
+@mixin hoverEffect {
+  color: $textColor;
+  background: $lightGreen;
+  // transform: translateY(-7px);
+  // box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+}
+@mixin contentCenter($value) {
+  display: flex;
+  justify-content: center;
+  align-items: $value;
+  flex-direction: column;
+}
+@mixin myBtn_2($bg_value) {
+  background: $bg_value;
+  border-radius: 3rem;
+  border: 1px solid $lightGreen;
+  text-decoration: none;
+  outline: none;
+  padding: 0.4rem 1.2rem;
+}
+@mixin contastCenter {
+  padding-bottom: 2rem;
+  & p {
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  & img {
+    width: 3rem;
+    padding: 1.5rem 0 1rem 0;
+  }
+  & a {
+    text-decoration: none;
+    color: $textColor;
+    padding: 0 0 1rem 0;
+    & img {
+      width: 0.8rem;
+      padding: 0;
+    }
+  }
+}
